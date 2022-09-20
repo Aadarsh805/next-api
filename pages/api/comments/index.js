@@ -13,4 +13,5 @@ export default function handler(req, res) {
     comments.push(newComment)
     res.status(201).json(newComment)
   }
+  
 }
